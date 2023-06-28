@@ -1,0 +1,48 @@
+.main{
+    margin-top: 40px;
+    display: flex;
+}
+.sub{
+    font-size: 18px;
+    margin: auto;
+    border: 1px solid black;
+    height: 500px;
+    width: 600px;
+    text-align: left;
+    padding: 30px;
+}
+input{
+    width: 100%;
+    margin: auto;
+    height: 40px;
+    border: 2px solid black;
+    margin-top: 10px;
+    
+}
+.sub2{
+    width: 100%;
+    border: 2px solid black;
+    border-style: dashed;
+    margin-top: 20px;
+    padding: 10px;
+}
+.sub3, .con2{
+    display: flex;
+    margin-top: 10px;
+}
+.sub3 button{
+    margin-left: 20px;
+}
+.con2 {
+    list-style: none; 
+ }
+ .con2 li::before {
+    content: "•";
+    color: green;
+    font-size: 1.5em;
+    margin-right: 15px;
+
+ }
+ .con2 button{
+    margin-left: 20px;
+}
